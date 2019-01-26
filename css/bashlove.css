@@ -1,0 +1,46 @@
+*,
+*:before,
+*:after{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	color: rgba(53, 15, 36, 1);
+}
+h1{
+	text-align: center;
+	font-size: 2.4em;
+	font-family:serif;
+	margin-bottom: 5%;
+	margin-top:5%;
+	color: rgba(53, 15, 36, 1);
+}
+h2{
+	font-size: 1.7em;
+	font-family:sans-serif;
+	padding-left:5%;
+	padding-bottom: 3%;
+	padding-top:2%;
+	color: rgba(53, 15, 36, 1);
+}
+section{
+	border: double 2px black;
+	border-radius: 5px;
+	margin-left:2%;
+	margin-right:2%;
+
+}
+p{
+	font-family: sans-serif;
+	color: rgba(53, 15, 36, 1);
+	font-size: 1.3em;
+	line-height: 1.5em;
+	max-width: 70%;
+	margin-left:13%;
+	padding-bottom: 2%;
+}
+.vocab{
+	display: inline;
+	color:rgba(191, 67, 89, 1);
+}
