@@ -41,6 +41,9 @@ li{
 	font-size: 1.2em;
 
 }*/
+nav a{
+	transition: all .5s ease;
+}
 a:link{
 	color:rgba(248,209,174,1);
 	font-family: serif;

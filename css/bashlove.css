@@ -5,20 +5,52 @@
 	padding:0;
 	box-sizing:border-box;
 }
+ul{
+	margin-left:36%;
+	margin-bottom: 3%;
+}
+li{
+	display:inline-block;
+	padding:2%;
+}
+nav a{
+	transition: all .5s ease;
+}
+a:link{
+	color:rgba(102, 50, 88, 1);
+	font-family: "Abhaya Libre", serif;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+a:visited{
+	color:rgba(191, 67, 89, 1);
+}
+a:hover{
+	background:rgba(252, 173, 151, .7);
+	padding-left:5px;
+	border-radius: 3px;
+	padding-right:5px;
+}
+a:active{
+	color:rgba(102, 50, 88, 1);
+}
 body{
 	color: rgba(53, 15, 36, 1);
+	background-image: url(../img/crumpledpaper.jpg);
+	background-size: cover;
+	background-position: no-repeat;
 }
 h1{
 	text-align: center;
 	font-size: 2.4em;
-	font-family:serif;
+	font-family:"Abhaya Libre", serif;
 	margin-bottom: 5%;
 	margin-top:5%;
 	color: rgba(53, 15, 36, 1);
 }
 h2{
 	font-size: 1.7em;
-	font-family:sans-serif;
+	font-family:"Raleway", sans-serif;
 	padding-left:5%;
 	padding-bottom: 3%;
 	padding-top:2%;
@@ -31,13 +63,19 @@ section{
 	margin-right:2%;
 
 }
+.bg{
+	background: rgba(252, 173, 151,.4);
+	max-width: 65%;
+	margin-left:18%;
+	padding-top:3%;
+}
 p{
-	font-family: sans-serif;
+	font-family: "Raleway", sans-serif;
 	color: rgba(53, 15, 36, 1);
 	font-size: 1.3em;
 	line-height: 1.5em;
-	max-width: 70%;
-	margin-left:13%;
+	max-width: 60%;
+	margin-left:20%;
 	padding-bottom: 2%;
 }
 .vocab{
